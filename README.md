@@ -39,7 +39,7 @@ Assuming a `letters.json` file was loaded
           es
           en
         }
-        childRawJson {
+        childRawLettersJson {
           objectValue
         }
       }
@@ -60,7 +60,7 @@ Which would return:
             "es": "...",
             "en": "..."
           }
-          childRawJson {
+          childRawLettersJson {
             objectValue: {
               "es": "a",
               "en": "a"
