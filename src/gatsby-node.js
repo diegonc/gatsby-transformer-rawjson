@@ -19,7 +19,7 @@ exports.onCreateNode = (
       children: [],
       parent: id,
       internal: {
-        type: 'RawJson',
+        type: `Raw${node.internal.type}`,
         content: '',
         contentDigest: createContentDigest('')
       },

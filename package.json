@@ -1,6 +1,6 @@
 {
   "name": "gatsby-transformer-rawjson",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Expose values as a GraphQL JSON scalar",
   "main": "index.js",
   "repository": {
