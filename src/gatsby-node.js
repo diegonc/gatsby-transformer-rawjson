@@ -14,12 +14,13 @@ exports.onCreateNode = (
       ...rest
     } = node;
     const {createNode, createParentChildLink} = actions;
+    const type = `Raw${node.internal.type}`;
     const child = {
-      id: createNodeId(`${id} >>> RawJson`),
+      id: createNodeId(`${id} >>> ${type}`),
       children: [],
       parent: id,
       internal: {
-        type: `Raw${node.internal.type}`,
+        type,
         content: '',
         contentDigest: createContentDigest('')
       },
@@ -32,7 +33,7 @@ exports.onCreateNode = (
 
 exports.setFieldsOnGraphQLNodeType = (args) => {
   const {type: {name, nodes}} = args;
-  if (name === 'RawJson') {
+  if (/Raw.*Json/.test(name)) {
     return nodes
       .map(({id, parent, children, internal, ...rest}) => Object.keys(rest))
       .reduce((a, f) => a.concat(f), [])
