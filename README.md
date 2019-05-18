@@ -1,4 +1,4 @@
-[![npm version](https://badge.fury.io/js/gatsby-transformer-rawjson.svg)](https://badge.fury.io/js/gatsby-transformer-rawjson)
+[![npm](https://img.shields.io/npm/v/gatsby-transformer-rawjson.svg)](https://www.npmjs.com/package/gatsby-transformer-rawjson)
 
 # gatsby-transformer-json
 
