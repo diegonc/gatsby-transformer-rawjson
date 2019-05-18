@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/gatsby-transformer-rawjson.svg)](https://badge.fury.io/js/gatsby-transformer-rawjson)
+
 # gatsby-transformer-json
 
 Exposes JSON values as a scalar field in GraphQL schema.
