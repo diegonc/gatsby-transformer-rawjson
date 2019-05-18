@@ -1,11 +1,11 @@
 {
   "name": "gatsby-transformer-rawjson",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Expose values as a GraphQL JSON scalar",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/diegonc/gatsby-transforner-rawjson.git"
+    "url": "git+https://github.com/diegonc/gatsby-transformer-rawjson.git"
   },
   "keywords": [
     "gatsby",
@@ -16,9 +16,9 @@
   "author": "Diego Nieto Cid <dnietoc@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/diegonc/gatsby-transforner-rawjson/issues"
+    "url": "https://github.com/diegonc/gatsby-transformer-rawjson/issues"
   },
-  "homepage": "https://github.com/diegonc/gatsby-transforner-rawjson#readme",
+  "homepage": "https://github.com/diegonc/gatsby-transformer-rawjson#readme",
   "peerDependencies": {
     "gatsby": "^2.0.15"
   },
