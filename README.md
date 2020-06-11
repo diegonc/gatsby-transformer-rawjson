@@ -64,8 +64,8 @@ Which would return:
           }
           childRawLettersJson {
             objectValue: {
-              "es": "a",
-              "en": "a"
+              "es": "...",
+              "en": "..."
             }
           }
         },
