@@ -1,6 +1,6 @@
 [![npm](https://img.shields.io/npm/v/gatsby-transformer-rawjson.svg)](https://www.npmjs.com/package/gatsby-transformer-rawjson)
 
-# gatsby-transformer-json
+# gatsby-transformer-rawjson
 
 Exposes JSON values as a scalar field in GraphQL schema.
 
