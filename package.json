@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/diegonc/gatsby-transformer-rawjson#readme",
   "peerDependencies": {
-    "gatsby": "^5.16.0"
+    "gatsby": "^5.16.0",
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
   },
   "dependencies": {
     "@babel/runtime": "^7.20.13",
@@ -40,6 +42,6 @@
     "watch": "babel -w src --out-dir . --ignore **/__tests__"
   },
   "engines": {
-    "node": ">=12.13.0"
+    "node": ">=18.0.0 <26"
   }
 }
